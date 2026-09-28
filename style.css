@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    padding: 2px;
+    position: inherit;
+    height: 12px;
+    width: 7px;
+}
+
+.logo img{
+    height: 70px;
+    width: 73px;
+}
+
+.navbar{
+    padding-left: 200px;
+    padding-top: 9px;
+    list-style: none;
+    display: flex;
+    background-color: rgb(20, 7, 7);
+}
+
+.navbar li{
+    margin: 12px;
+    
+}
+
+.navbar li a{
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    font-size: 18px;
+    color: blue;
+}
+
+.navbar li a:hover{
+    color: rgb(7, 243, 7);
+    cursor: pointer;
+    transition: .4s solid green;
+
+}
+
+.content{
+    width: 100%;
+    padding: 6px;
+    padding-left: 6px;
+    background-image: url(Background.jpg);
+    background-size: cover;
+    
+    
+}
+
+.content h2{
+    color: white;
+    font-family: Arial;
+    font-size: 38px;
+    font-style: unset;
+    border: 73px;
+    border-radius: 12px;
+    background-color: rgb(0, 136, 255);
+    text-align: center;
+    position: center;
+}
+
+.content p{
+    margin: 12px;
+    align-items: center;
+    font-family: Arial;
+    font-style: initial;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+}
+
+.info{
+   margin: 40px;
+   padding-left: 200px; 
+}
+
+.info figure img{
+    
+}
+
+.image-style{
+    border-radius: 80px;
+    width: 140px;
+    height: 170px;
+    position: center;
+   
+    
+}
+
+figcaption{
+    margin: 6px;
+    
+}
+
+figcaption h3{
+    text-indent: -18px;
+    color: rgb(249, 242, 242);
+    font-family: 'Times New Roman';
+}
+
+figcaption p{
+    font-family: 'Courier New';
+    text-indent: -4px;
+    
+}
+
+.title{
+    font-size: 25px;
+    padding-left: 35px;
+}
+
+.head{
+    padding: ;
+    
+}
+
+.serv{
+    font-size: 26px;
+    color: rgb(231, 248, 231);
+    padding-left: 40%;
+    background-color: rgb(18, 10, 87);
+    border-radius: 90px;
+    margin-top: 12px;
+}
+
+.services{
+    padding-left: 20px;
+    margin: 20px;
+    background-color: transparent;
+    
+}
+   
+
+.services ol li{
+    display: grid;
+    color: blue;
+    font-size: 23px;
+    list-style-type: none;
+}
+
+.rep img{
+    width: 200px;
+    height: 210px;
+    border-radius: 90px;
+}
+
+.comp{
+    color: blue;
+    width: 190px;
+    padding-left: 30px;
+}
+
+.syst{
+    padding-left: 58%;
+    margin-top: -287px;
+}
+
+.syst img{
+    width: 200px;
+    height: 210px;
+    border-radius: 90px;
+}
+
+.soft{
+    color: blue;
+    width: 300px;
+    margin-left: -30px;
+    
+}
+
+span{
+    padding-left: 24px;
+}
+
+.web img{
+    width: 200px;
+    height: 210px;
+    border-radius: 90px;
+}
+
+.site{
+    color: blue;
+    width: 200px;
+    padding-left: 20px;
+}
+
+.host img{
+    width: 200px;
+    height: 210px;
+    border-radius: 90px;
+}
+
+.hos{
+    color: blue;
+    padding-left: 20px;
+    margin-left: 30px;
+}
+
+.host{
+    padding-left: 58%;
+    margin-top: -257px;
+}
+
+.contact img{
+    width: 80px;
+    margin-top: ;
+    padding: 23px;
+    height: 100px;
+    margin-bottom: 4px;
+}
+
+span{
+    color: green;
+    font-size: 49px;
+}
+
+
+.contact a{
+    text-decoration: none;
+}
+
+.contact a:hover{
+    color: blue;
+}
