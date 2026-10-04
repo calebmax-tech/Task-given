@@ -6,7 +6,7 @@
 .logo{
     padding: 2px;
     position: inherit;
-    height: 12px;
+    height: 0.5px;
     width: 7px;
 }
 
@@ -21,24 +21,32 @@
     list-style: none;
     display: flex;
     background-color: rgb(20, 7, 7);
+   
+     
+}
+
+.hm{
+    width: 100%;
+    
 }
 
 .navbar li{
     margin: 12px;
-    
+     
 }
 
 .navbar li a{
     font-family: 'Times New Roman';
     text-decoration: none;
     font-size: 18px;
-    color: blue;
+    color: white;
+    
 }
 
 .navbar li a:hover{
-    color: rgb(7, 243, 7);
+    color: rgb(7, 200, 243);
     cursor: pointer;
-    transition: .4s solid green;
+    transition: .4s ease;
 
 }
 
@@ -72,6 +80,7 @@
     background-color: transparent;
     border-radius: 10px;
     color: white;
+    width: 80%;
 }
 
 .info{
@@ -114,18 +123,19 @@ figcaption p{
     padding-left: 35px;
 }
 
-.head{
-    padding: ;
+.head
     
-}
 
 .serv{
-    font-size: 26px;
+    font-size: 45px;
     color: rgb(231, 248, 231);
     padding-left: 40%;
     background-color: rgb(18, 10, 87);
-    border-radius: 90px;
+    border-radius: 60px;
     margin-top: 12px;
+    height: 50px;
+    position: center;
+
 }
 
 .services{
@@ -214,11 +224,6 @@ span{
     margin-bottom: 4px;
 }
 
-span{
-    color: green;
-    font-size: 49px;
-}
-
 
 .contact a{
     text-decoration: none;
@@ -227,3 +232,5 @@ span{
 .contact a:hover{
     color: blue;
 }
+
+
