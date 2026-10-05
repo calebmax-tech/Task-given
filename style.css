@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .logo{
@@ -11,8 +12,8 @@
 }
 
 .logo img{
-    height: 70px;
-    width: 73px;
+    height: 50px;
+    width: 60px;
 }
 
 .navbar{
@@ -234,3 +235,143 @@ span{
 }
 
 
+ .contact-container {
+            width: 80%;
+            max-width: 900px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .contact-info {
+            margin-top: 30px;
+            padding-left: 0px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            font-size: 18px;
+        }
+
+        .contact-item i {
+            font-size: 25px;
+            width: 45px;
+            color: #007bff;
+        }
+
+        .contact-item a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .contact-item a:hover {
+            color: #007bff;
+        }
+
+        /* Social Media */
+
+        .social-media {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .social-media a {
+            display: inline-block;
+            margin: 10px;
+            font-size: 30px;
+            color: #333;
+            transition: 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #007bff;
+            transform: scale(1.2);
+        }
+
+        span{
+            padding-left: 10px;
+        }
+
+
+        .team-section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .team-section h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .team-section p {
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .team-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .team-card {
+            background-color: white;
+            width: 230px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .team-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .profile-icon {
+            font-size: 80px;
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+
+        .team-card h2 {
+            margin: 10px 0 5px;
+            color: #333;
+        }
+
+        .role {
+            color: #007bff;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .description {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #333;
+            font-size: 22px;
+            margin: 0 7px;
+            transition: 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #007bff;
+        }
