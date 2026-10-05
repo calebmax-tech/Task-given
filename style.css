@@ -375,3 +375,27 @@ span{
         .social-icons a:hover {
             color: #007bff;
         }
+
+.tem{
+    align-items: center;
+    padding-left: 48%;
+    
+}
+
+.tem a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    background-color: rgb(0, 136, 255);
+    border-radius: 9px;
+    color: black;
+    
+
+}
+.button-link{
+    text-align: center;
+}
+
+.tem a:hover{
+    background-color: white;
+}
